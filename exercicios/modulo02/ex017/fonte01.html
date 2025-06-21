@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+        body{
+            font-family: 'Work Sans',Arial, Helvetica, sans-serif; /* courier new, arial */
+            /* 
+            Medidas absolutas 
+            cm, mm, in (polegada), px, pt (ponto), pc (paica)
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px = 1em
+            */
+            font-size: 1em;
+            /* lighter normal bold bolder */
+        }
+        h1{           
+            /* shorthand font           
+            - font-style -> font-weight -> font-size -> font-family 
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Woek Sans', sans-serif; 
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro delectus corporis esse iste eligendi quam sequi odit amet placeat fugit. Voluptates esse eius voluptatem eaque obcaecati vero reiciendis? Asperiores quod sit numquam architecto odit quam repudiandae assumenda? Ex sapiente consequatur doloremque totam, rerum in minima expedita sed asperiores! Consequuntur, sapiente veritatis dolorem corrupti nisi blanditiis incidunt similique delectus quibusdam autem aspernatur hic placeat repudiandae laudantium asperiores explicabo magnam quae quos, illo reprehenderit animi quisquam! Maxime vel consequuntur modi iusto eaque qui et atque, cum facilis excepturi unde perspiciatis ab aperiam autem quisquam voluptate, vero amet, nesciunt cupiditate sunt dolorum sint totam! Sunt suscipit quo ipsum quisquam iusto nemo minima alias! Vero modi mollitia ipsum officiis, deleniti, atque perspiciatis dolorum, perferendis a blanditiis cupiditate molestiae placeat nisi iusto fugit nihil deserunt. Ut, incidunt odio error dignissimos beatae nemo, minus provident debitis expedita, enim exercitationem iusto excepturi quis eligendi quae hic modi. Aut ea repellendus asperiores eveniet culpa praesentium maxime voluptates eligendi laudantium ab hic fugit vero non, fugiat qui laboriosam explicabo nisi at iste amet eaque omnis. Rerum quibusdam, modi maxime voluptatibus aspernatur iusto sunt fugit amet repudiandae facere consequatur, deleniti a, dicta officiis laudantium? Dignissimos possimus impedit rem ab ducimus?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis laboriosam, voluptates quibusdam dolore dolores nam, placeat voluptate mollitia ipsam, tempora odit? Accusantium excepturi tempore quis molestiae illo repellendus doloribus a.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquam nam tempora sit vel repudiandae, cum provident dolore dicta libero. Voluptates consequatur maiores quia nemo repellat? Ipsa ab consequatur neque.</p>
+</body>
+</html>

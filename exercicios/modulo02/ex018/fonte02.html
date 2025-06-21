@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'Varsity';
+            src: url('fonts/varsity_regular.ttf') format('truetype');
+            font-style: normal;
+            /*
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+            */
+        }
+        body{
+            font-family: 'Varsity';
+            font-weight: normal;
+        }
+        h1{
+            font-family: 'Varsity', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        h2{
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid doloremque expedita harum, quis cumque voluptatibus repudiandae nam odio ad hic eveniet voluptas libero facere deserunt magnam explicabo a, quidem nostrum.</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt veritatis quasi aut consequatur quos eos? Iure reiciendis, labore quis aliquid quae error, praesentium soluta sapiente dolore necessitatibus inventore eveniet id.</p>
+</body>
+</html>
