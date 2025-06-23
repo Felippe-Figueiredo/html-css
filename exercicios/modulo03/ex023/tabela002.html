@@ -12,6 +12,7 @@
         table {
             width: 600px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -31,7 +32,17 @@
             color: white;
         }
 
-        .num {
+        thead > tr > th { /* configuração para deixar o cabeçalho fixo, table position: relative */
+            position: sticky;
+            top: -1px;
+            background-color: rgb(95, 92, 92);
+        }
+
+        tbody > tr:nth-child(odd) { /* odd = impares, even = pares */
+            background-color: lightgray;
+        }
+
+        td.num {
             text-align: right;
         }
 
