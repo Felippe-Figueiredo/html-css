@@ -49,6 +49,7 @@ menu a {
     color: white;
     background-color: rgb(71, 71, 71);
     border-top: 2px solid gray;
+    border-radius: 10px 10px 0 0;
 }
 
 menu a:hover {
