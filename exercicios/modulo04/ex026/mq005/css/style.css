@@ -62,11 +62,16 @@ main {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 40px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
 }
 
+article {
+    margin: 10px;
+}
+
 article h2 {
+    padding-top: 10px;
     padding-bottom: 20px;
     text-align: justify;
 }
