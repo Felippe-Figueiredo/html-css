@@ -73,7 +73,7 @@ main {
 
     header > nav {
         width: 90vw;
-        display: flex;
+        display: none;
     }
 
     nav > a {        
