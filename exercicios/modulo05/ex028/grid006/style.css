@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+div.container {
+    border: 3px solid black;
+    display: grid;
+    gap: 10px;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.item1 {
+    grid-row: 1 / 2; 
+    grid-column: 1 / 5;
+    background-color: red;
+}
+
+.item2 {
+    grid-row: 2 / span 2; /* a linha expande em 2 */
+    grid-column: 1 / span 2; /* coluna expande em 2 */
+    background-color: blue;
+}
+
+.item3 {
+    background-color: green;
+    grid-area: 2 / 3 / 4 / 5; /* row-start / column-start / row-end / column-end */
+}
